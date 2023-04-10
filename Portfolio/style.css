@@ -316,3 +316,16 @@ textarea {
   transition: all .2s ease-in-out;
 }
 
+/* Media Queries */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    body{
+      max-width: fit-content;
+    }
+      footer{
+        width:290%;
+      }
+}

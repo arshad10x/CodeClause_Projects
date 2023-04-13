@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+
+  background: #000000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  color: #fff;
+  background-color: #000;
+
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.cover {
+  position: absolute;
+  width: 100%;
+
+  height: 618px;
+  left: 0px;
+  top: 65px;
+  background: url(./bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+  position: absolute;
+  width: 759px;
+  height: 169px;
+  left: 361px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  font-weight: 700;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+h3 {
+  position: absolute;
+  top: 280px;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.info {
+  position: absolute;
+  width: 921px;
+  height: 360px;
+  left: 201px;
+  top: 815px;
+
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+
+  color: #000000;
+}
+
+.bullets {
+  position: absolute;
+  width: 921px;
+  height: 360px;
+  left: 0px;
+  top: 250px;
+
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+.project {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  top: 80rem;
+  padding-top: 1rem;
+
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  justify-content: center;
+  background: #e5e5e5;
+  color: #000000;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h2 {
+  position: absolute;
+  width: 140px;
+  height: 33x;
+  top: 3rem;
+  left: 45rem;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+#title {
+  margin: 1rem 0 0 -15rem;
+  top: 92rem;
+  position: absolute;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  
+  color: #000000;
+}
+
+#line {
+  position: absolute;
+  width: 1380px;
+  height: 2px;
+  top: 97rem;
+  margin-left: 7rem;
+  background: #e5e5e5;
+}
+
+#details {
+  width: 500px;
+  text-align: left;
+  position: absolute;;
+  top: 100rem;
+  padding: 10px;
+  line-height: 40px;
+  margin-left: 7rem;
+  color: #000000;
+
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#details a {
+  color:green;
+}
+
+/* 2nd */
+
+#title2 {
+  position: absolute;
+  top: 114rem;
+  color: #000;
+  margin: 1rem 0 0 -15rem;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#line2 {
+  position: absolute;
+  width: 1380px;
+  height: 2px;
+  top: 120rem;
+  margin-left: 7rem;
+  background: #e5e5e5;
+}
+
+#details2 {
+  width: 530px;
+  text-align: left;
+  position: absolute;;
+  top: 123rem;
+  padding: 10px;
+  line-height: 40px;
+  margin-left: 7rem;
+  color: #000000;
+
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#details2 a {
+  color:green;
+}
+
+
+.header2{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  top: 125rem;
+  padding-top: 1rem;
+
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  justify-content: center;
+  background: #e5e5e5;
+  color: #000000;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
